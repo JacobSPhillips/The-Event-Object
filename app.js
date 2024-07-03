@@ -1,11 +1,4 @@
-document.querySelector('button').addEventListener('click', (evt) => {
-    console.log(evt)
-})
 
-const input = document.querySelector('input');
-input.addEventListener('keydown', (e) => {
-    console.log(e)
-})
 
 window.addEventListener('keydown', (e) => {
     switch (e.code) {
